@@ -17,7 +17,7 @@ struct HomeView: View {
     var body: some View {
         NavigationStack{
             VStack{
-                Title()
+                Title(title: .constant("RITUALS"))
                 Daily_Quote()
 
                     ZStack(alignment: .bottomTrailing){
