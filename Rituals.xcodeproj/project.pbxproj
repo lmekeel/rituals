@@ -26,6 +26,8 @@
 		2525D8C52B7D71220032FB7C /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525D8C42B7D71220032FB7C /* Title.swift */; };
 		2525D8C72B7D719C0032FB7C /* Daily Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525D8C62B7D719C0032FB7C /* Daily Quote.swift */; };
 		2525D8CA2B7D73D20032FB7C /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525D8C92B7D73D20032FB7C /* QuoteModel.swift */; };
+		257CC8932B9F74DA00A44887 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 257CC8922B9F74DA00A44887 /* FirebaseAnalytics */; };
+		257CC8972B9F761600A44887 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 257CC8962B9F761600A44887 /* GoogleService-Info.plist */; };
 		25E9A8A92B86CD6A00B0D899 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8A82B86CD6A00B0D899 /* QuoteViewModel.swift */; };
 		25E9A8AB2B86CDC000B0D899 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8AA2B86CDC000B0D899 /* HomeViewModel.swift */; };
 		25E9A8AD2B86CDCE00B0D899 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8AC2B86CDCE00B0D899 /* ExploreViewModel.swift */; };
@@ -78,6 +80,7 @@
 		2525D8C42B7D71220032FB7C /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		2525D8C62B7D719C0032FB7C /* Daily Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Daily Quote.swift"; sourceTree = "<group>"; };
 		2525D8C92B7D73D20032FB7C /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		257CC8962B9F761600A44887 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		25E9A8A82B86CD6A00B0D899 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
 		25E9A8AA2B86CDC000B0D899 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		25E9A8AC2B86CDCE00B0D899 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
@@ -95,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				257CC8932B9F74DA00A44887 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +126,7 @@
 				25160F272B730463004FA9E5 /* RitualsTests */,
 				25160F312B730463004FA9E5 /* RitualsUITests */,
 				25160F102B730462004FA9E5 /* Products */,
+				257CC8912B9F74DA00A44887 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,14 +143,13 @@
 		25160F112B730462004FA9E5 /* Rituals */ = {
 			isa = PBXGroup;
 			children = (
+				257CC8902B9F72F800A44887 /* App */,
 				257CC88C2B9C09CA00A44887 /* Services */,
 				25E9A8B02B8FE5AE00B0D899 /* Helpers */,
 				2525D8C82B7D73B00032FB7C /* Models */,
 				25160F492B74204D004FA9E5 /* Views */,
 				25E9A8A72B86C96500B0D899 /* ViewModels */,
 				25160F4A2B74208A004FA9E5 /* Components */,
-				25160F122B730462004FA9E5 /* RitualsApp.swift */,
-				25160F142B730462004FA9E5 /* ContentView.swift */,
 				25160F162B730463004FA9E5 /* Assets.xcassets */,
 				25160F1D2B730463004FA9E5 /* Rituals.xcdatamodeld */,
 				25160F182B730463004FA9E5 /* Preview Content */,
@@ -181,6 +185,7 @@
 		25160F492B74204D004FA9E5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				25160F142B730462004FA9E5 /* ContentView.swift */,
 				25E9A8BD2B90160100B0D899 /* CreateRitualFlow */,
 				25160F432B730A81004FA9E5 /* HomeView.swift */,
 				25160F452B730C67004FA9E5 /* ExploreView.swift */,
@@ -214,8 +219,24 @@
 		257CC88C2B9C09CA00A44887 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				257CC8962B9F761600A44887 /* GoogleService-Info.plist */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		257CC8902B9F72F800A44887 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				25160F122B730462004FA9E5 /* RitualsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		257CC8912B9F74DA00A44887 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		25E9A8A72B86C96500B0D899 /* ViewModels */ = {
@@ -265,6 +286,9 @@
 			dependencies = (
 			);
 			name = Rituals;
+			packageProductDependencies = (
+				257CC8922B9F74DA00A44887 /* FirebaseAnalytics */,
+			);
 			productName = Rituals;
 			productReference = 25160F0F2B730462004FA9E5 /* Rituals.app */;
 			productType = "com.apple.product-type.application";
@@ -337,6 +361,9 @@
 				Base,
 			);
 			mainGroup = 25160F062B730462004FA9E5;
+			packageReferences = (
+				257CC88F2B9F72C200A44887 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 25160F102B730462004FA9E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -354,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25160F1A2B730463004FA9E5 /* Preview Assets.xcassets in Resources */,
+				257CC8972B9F761600A44887 /* GoogleService-Info.plist in Resources */,
 				25160F172B730463004FA9E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -726,6 +754,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		257CC88F2B9F72C200A44887 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.22.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		257CC8922B9F74DA00A44887 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 257CC88F2B9F72C200A44887 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		25160F1D2B730463004FA9E5 /* Rituals.xcdatamodeld */ = {
