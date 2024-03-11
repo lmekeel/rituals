@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct Title: View {
+    @Binding var title: String
     var body: some View {
-        Text("RITUALS").font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+        Text(title).font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             .fontDesign(.serif)
     }
 }
 
 #Preview {
-    Title()
+    Title(title: .constant("RITUALS"))
 }
