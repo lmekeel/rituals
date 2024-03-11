@@ -11,11 +11,31 @@
 		25160F152B730462004FA9E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25160F142B730462004FA9E5 /* ContentView.swift */; };
 		25160F172B730463004FA9E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25160F162B730463004FA9E5 /* Assets.xcassets */; };
 		25160F1A2B730463004FA9E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25160F192B730463004FA9E5 /* Preview Assets.xcassets */; };
-		25160F1C2B730463004FA9E5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25160F1B2B730463004FA9E5 /* Persistence.swift */; };
 		25160F1F2B730463004FA9E5 /* Rituals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25160F1D2B730463004FA9E5 /* Rituals.xcdatamodeld */; };
 		25160F292B730463004FA9E5 /* RitualsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25160F282B730463004FA9E5 /* RitualsTests.swift */; };
 		25160F332B730463004FA9E5 /* RitualsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25160F322B730463004FA9E5 /* RitualsUITests.swift */; };
 		25160F352B730463004FA9E5 /* RitualsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25160F342B730463004FA9E5 /* RitualsUITestsLaunchTests.swift */; };
+		25160F442B730A81004FA9E5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25160F432B730A81004FA9E5 /* HomeView.swift */; };
+		25160F462B730C67004FA9E5 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25160F452B730C67004FA9E5 /* ExploreView.swift */; };
+		25160F482B730D0C004FA9E5 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25160F472B730D0C004FA9E5 /* AccountView.swift */; };
+		25160F4C2B7420BC004FA9E5 /* Ritual Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25160F4B2B7420BC004FA9E5 /* Ritual Card.swift */; };
+		25160F4E2B74215A004FA9E5 /* Ritual Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25160F4D2B74215A004FA9E5 /* Ritual Task.swift */; };
+		25160F502B74383E004FA9E5 /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25160F4F2B74383E004FA9E5 /* EditTaskView.swift */; };
+		2525D8C12B7D61A90032FB7C /* FABButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525D8C02B7D61A90032FB7C /* FABButton.swift */; };
+		2525D8C32B7D62110032FB7C /* CreateNewRitualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525D8C22B7D62110032FB7C /* CreateNewRitualView.swift */; };
+		2525D8C52B7D71220032FB7C /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525D8C42B7D71220032FB7C /* Title.swift */; };
+		2525D8C72B7D719C0032FB7C /* Daily Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525D8C62B7D719C0032FB7C /* Daily Quote.swift */; };
+		2525D8CA2B7D73D20032FB7C /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525D8C92B7D73D20032FB7C /* QuoteModel.swift */; };
+		25E9A8A92B86CD6A00B0D899 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8A82B86CD6A00B0D899 /* QuoteViewModel.swift */; };
+		25E9A8AB2B86CDC000B0D899 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8AA2B86CDC000B0D899 /* HomeViewModel.swift */; };
+		25E9A8AD2B86CDCE00B0D899 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8AC2B86CDCE00B0D899 /* ExploreViewModel.swift */; };
+		25E9A8AF2B8FCCEC00B0D899 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8AE2B8FCCEC00B0D899 /* AddTaskView.swift */; };
+		25E9A8B42B8FE90900B0D899 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8B32B8FE90900B0D899 /* Colors.swift */; };
+		25E9A8BF2B90162F00B0D899 /* EnterRitualNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8BE2B90162F00B0D899 /* EnterRitualNameView.swift */; };
+		25E9A8C12B901AE300B0D899 /* CreateTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8C02B901AE300B0D899 /* CreateTasksView.swift */; };
+		25E9A8C32B92406200B0D899 /* CreatingRitualViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8C22B92406200B0D899 /* CreatingRitualViewModel.swift */; };
+		25E9A8C52B924AC400B0D899 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8C42B924AC400B0D899 /* CoreDataManager.swift */; };
+		25E9A8C72B925E8700B0D899 /* CustomNavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8C62B925E8700B0D899 /* CustomNavButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +61,33 @@
 		25160F142B730462004FA9E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		25160F162B730463004FA9E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25160F192B730463004FA9E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		25160F1B2B730463004FA9E5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		25160F1E2B730463004FA9E5 /* Rituals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rituals.xcdatamodel; sourceTree = "<group>"; };
 		25160F242B730463004FA9E5 /* RitualsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RitualsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25160F282B730463004FA9E5 /* RitualsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualsTests.swift; sourceTree = "<group>"; };
 		25160F2E2B730463004FA9E5 /* RitualsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RitualsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25160F322B730463004FA9E5 /* RitualsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualsUITests.swift; sourceTree = "<group>"; };
 		25160F342B730463004FA9E5 /* RitualsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitualsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25160F432B730A81004FA9E5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		25160F452B730C67004FA9E5 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		25160F472B730D0C004FA9E5 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		25160F4B2B7420BC004FA9E5 /* Ritual Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ritual Card.swift"; sourceTree = "<group>"; };
+		25160F4D2B74215A004FA9E5 /* Ritual Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ritual Task.swift"; sourceTree = "<group>"; };
+		25160F4F2B74383E004FA9E5 /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		2525D8C02B7D61A90032FB7C /* FABButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FABButton.swift; sourceTree = "<group>"; };
+		2525D8C22B7D62110032FB7C /* CreateNewRitualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewRitualView.swift; sourceTree = "<group>"; };
+		2525D8C42B7D71220032FB7C /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		2525D8C62B7D719C0032FB7C /* Daily Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Daily Quote.swift"; sourceTree = "<group>"; };
+		2525D8C92B7D73D20032FB7C /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		25E9A8A82B86CD6A00B0D899 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
+		25E9A8AA2B86CDC000B0D899 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		25E9A8AC2B86CDCE00B0D899 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		25E9A8AE2B8FCCEC00B0D899 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		25E9A8B32B8FE90900B0D899 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		25E9A8BE2B90162F00B0D899 /* EnterRitualNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterRitualNameView.swift; sourceTree = "<group>"; };
+		25E9A8C02B901AE300B0D899 /* CreateTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTasksView.swift; sourceTree = "<group>"; };
+		25E9A8C22B92406200B0D899 /* CreatingRitualViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingRitualViewModel.swift; sourceTree = "<group>"; };
+		25E9A8C42B924AC400B0D899 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		25E9A8C62B925E8700B0D899 /* CustomNavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +138,15 @@
 		25160F112B730462004FA9E5 /* Rituals */ = {
 			isa = PBXGroup;
 			children = (
+				257CC88C2B9C09CA00A44887 /* Services */,
+				25E9A8B02B8FE5AE00B0D899 /* Helpers */,
+				2525D8C82B7D73B00032FB7C /* Models */,
+				25160F492B74204D004FA9E5 /* Views */,
+				25E9A8A72B86C96500B0D899 /* ViewModels */,
+				25160F4A2B74208A004FA9E5 /* Components */,
 				25160F122B730462004FA9E5 /* RitualsApp.swift */,
 				25160F142B730462004FA9E5 /* ContentView.swift */,
 				25160F162B730463004FA9E5 /* Assets.xcassets */,
-				25160F1B2B730463004FA9E5 /* Persistence.swift */,
 				25160F1D2B730463004FA9E5 /* Rituals.xcdatamodeld */,
 				25160F182B730463004FA9E5 /* Preview Content */,
 			);
@@ -131,6 +176,77 @@
 				25160F342B730463004FA9E5 /* RitualsUITestsLaunchTests.swift */,
 			);
 			path = RitualsUITests;
+			sourceTree = "<group>";
+		};
+		25160F492B74204D004FA9E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25E9A8BD2B90160100B0D899 /* CreateRitualFlow */,
+				25160F432B730A81004FA9E5 /* HomeView.swift */,
+				25160F452B730C67004FA9E5 /* ExploreView.swift */,
+				25160F472B730D0C004FA9E5 /* AccountView.swift */,
+				25160F4F2B74383E004FA9E5 /* EditTaskView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25160F4A2B74208A004FA9E5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				25160F4B2B7420BC004FA9E5 /* Ritual Card.swift */,
+				25160F4D2B74215A004FA9E5 /* Ritual Task.swift */,
+				2525D8C02B7D61A90032FB7C /* FABButton.swift */,
+				2525D8C42B7D71220032FB7C /* Title.swift */,
+				2525D8C62B7D719C0032FB7C /* Daily Quote.swift */,
+				25E9A8C62B925E8700B0D899 /* CustomNavButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2525D8C82B7D73B00032FB7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2525D8C92B7D73D20032FB7C /* QuoteModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		257CC88C2B9C09CA00A44887 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		25E9A8A72B86C96500B0D899 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				25E9A8A82B86CD6A00B0D899 /* QuoteViewModel.swift */,
+				25E9A8AA2B86CDC000B0D899 /* HomeViewModel.swift */,
+				25E9A8AC2B86CDCE00B0D899 /* ExploreViewModel.swift */,
+				25E9A8C22B92406200B0D899 /* CreatingRitualViewModel.swift */,
+				25E9A8C42B924AC400B0D899 /* CoreDataManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		25E9A8B02B8FE5AE00B0D899 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				25E9A8B32B8FE90900B0D899 /* Colors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		25E9A8BD2B90160100B0D899 /* CreateRitualFlow */ = {
+			isa = PBXGroup;
+			children = (
+				2525D8C22B7D62110032FB7C /* CreateNewRitualView.swift */,
+				25E9A8BE2B90162F00B0D899 /* EnterRitualNameView.swift */,
+				25E9A8C02B901AE300B0D899 /* CreateTasksView.swift */,
+				25E9A8AE2B8FCCEC00B0D899 /* AddTaskView.swift */,
+			);
+			path = CreateRitualFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +379,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25E9A8AB2B86CDC000B0D899 /* HomeViewModel.swift in Sources */,
+				25E9A8BF2B90162F00B0D899 /* EnterRitualNameView.swift in Sources */,
 				25160F1F2B730463004FA9E5 /* Rituals.xcdatamodeld in Sources */,
-				25160F1C2B730463004FA9E5 /* Persistence.swift in Sources */,
+				2525D8C52B7D71220032FB7C /* Title.swift in Sources */,
+				2525D8CA2B7D73D20032FB7C /* QuoteModel.swift in Sources */,
 				25160F152B730462004FA9E5 /* ContentView.swift in Sources */,
+				2525D8C72B7D719C0032FB7C /* Daily Quote.swift in Sources */,
+				25160F4E2B74215A004FA9E5 /* Ritual Task.swift in Sources */,
+				25160F442B730A81004FA9E5 /* HomeView.swift in Sources */,
+				25E9A8A92B86CD6A00B0D899 /* QuoteViewModel.swift in Sources */,
+				25E9A8C12B901AE300B0D899 /* CreateTasksView.swift in Sources */,
+				25160F482B730D0C004FA9E5 /* AccountView.swift in Sources */,
+				25E9A8B42B8FE90900B0D899 /* Colors.swift in Sources */,
+				25E9A8C32B92406200B0D899 /* CreatingRitualViewModel.swift in Sources */,
+				25160F462B730C67004FA9E5 /* ExploreView.swift in Sources */,
 				25160F132B730462004FA9E5 /* RitualsApp.swift in Sources */,
+				2525D8C12B7D61A90032FB7C /* FABButton.swift in Sources */,
+				25E9A8AF2B8FCCEC00B0D899 /* AddTaskView.swift in Sources */,
+				25160F4C2B7420BC004FA9E5 /* Ritual Card.swift in Sources */,
+				25E9A8AD2B86CDCE00B0D899 /* ExploreViewModel.swift in Sources */,
+				25E9A8C72B925E8700B0D899 /* CustomNavButton.swift in Sources */,
+				2525D8C32B7D62110032FB7C /* CreateNewRitualView.swift in Sources */,
+				25E9A8C52B924AC400B0D899 /* CoreDataManager.swift in Sources */,
+				25160F502B74383E004FA9E5 /* EditTaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

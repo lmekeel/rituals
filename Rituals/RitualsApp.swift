@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct RitualsApp: App {
-    let persistenceController = PersistenceController.shared
+    let persistenceController = CoreDataManager.instance
 
     var body: some Scene {
         WindowGroup {
