@@ -49,9 +49,12 @@ struct AddTaskView: View {
                             .foregroundStyle(Color.primaryDark)
                     }
                 }
+                
                 TextField("Enter name", text: $taskName)
                     .padding(8)
                     .background(RoundedRectangle(cornerRadius: 4).fill(Color.white))
+                    .autocapitalization(.none)
+                
                 Text("how much time do you want to set aside for this element?")
                     .fontDesign(.serif)
                     .foregroundStyle(Color.white)

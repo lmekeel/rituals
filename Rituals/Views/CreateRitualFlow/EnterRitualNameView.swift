@@ -22,9 +22,9 @@ struct EnterRitualNameView: View {
                 .frame(maxWidth: 244)
             
             TextField("enter name...", text: $name)
-                
                 .frame(maxWidth: 250)
                 .textFieldStyle(.roundedBorder)
+                .autocapitalization(.none)
    
         }
         .onChange(of: name) {
