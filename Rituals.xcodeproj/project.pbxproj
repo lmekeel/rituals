@@ -28,6 +28,9 @@
 		2525D8CA2B7D73D20032FB7C /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525D8C92B7D73D20032FB7C /* QuoteModel.swift */; };
 		257CC89B2B9FA26400A44887 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 257CC89A2B9FA26400A44887 /* GoogleService-Info.plist */; };
 		257CC89D2B9FA40D00A44887 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 257CC89C2B9FA40D00A44887 /* FirebaseAnalytics */; };
+		257CC8A12BA38FA300A44887 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257CC8A02BA38FA300A44887 /* EditProfileView.swift */; };
+		257CC8A32BA39B0800A44887 /* SubscribeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257CC8A22BA39B0800A44887 /* SubscribeView.swift */; };
+		257CC8A52BA39B6200A44887 /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257CC8A42BA39B6200A44887 /* NotificationSettingsView.swift */; };
 		25E9A8A92B86CD6A00B0D899 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8A82B86CD6A00B0D899 /* QuoteViewModel.swift */; };
 		25E9A8AB2B86CDC000B0D899 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8AA2B86CDC000B0D899 /* HomeViewModel.swift */; };
 		25E9A8AD2B86CDCE00B0D899 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E9A8AC2B86CDCE00B0D899 /* ExploreViewModel.swift */; };
@@ -81,6 +84,9 @@
 		2525D8C62B7D719C0032FB7C /* Daily Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Daily Quote.swift"; sourceTree = "<group>"; };
 		2525D8C92B7D73D20032FB7C /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
 		257CC89A2B9FA26400A44887 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		257CC8A02BA38FA300A44887 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		257CC8A22BA39B0800A44887 /* SubscribeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeView.swift; sourceTree = "<group>"; };
+		257CC8A42BA39B6200A44887 /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
 		25E9A8A82B86CD6A00B0D899 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
 		25E9A8AA2B86CDC000B0D899 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		25E9A8AC2B86CDCE00B0D899 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
@@ -143,6 +149,7 @@
 		25160F112B730462004FA9E5 /* Rituals */ = {
 			isa = PBXGroup;
 			children = (
+				257CC89E2BA38EB900A44887 /* Managers */,
 				257CC8902B9F72F800A44887 /* App */,
 				257CC88C2B9C09CA00A44887 /* Services */,
 				25E9A8B02B8FE5AE00B0D899 /* Helpers */,
@@ -185,6 +192,7 @@
 		25160F492B74204D004FA9E5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				257CC89F2BA38F7C00A44887 /* AccountSettings */,
 				25160F142B730462004FA9E5 /* ContentView.swift */,
 				25E9A8BD2B90160100B0D899 /* CreateRitualFlow */,
 				25160F432B730A81004FA9E5 /* HomeView.swift */,
@@ -239,6 +247,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		257CC89E2BA38EB900A44887 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				25E9A8C42B924AC400B0D899 /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		257CC89F2BA38F7C00A44887 /* AccountSettings */ = {
+			isa = PBXGroup;
+			children = (
+				257CC8A02BA38FA300A44887 /* EditProfileView.swift */,
+				257CC8A22BA39B0800A44887 /* SubscribeView.swift */,
+				257CC8A42BA39B6200A44887 /* NotificationSettingsView.swift */,
+			);
+			path = AccountSettings;
+			sourceTree = "<group>";
+		};
 		25E9A8A72B86C96500B0D899 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,7 +272,6 @@
 				25E9A8AA2B86CDC000B0D899 /* HomeViewModel.swift */,
 				25E9A8AC2B86CDCE00B0D899 /* ExploreViewModel.swift */,
 				25E9A8C22B92406200B0D899 /* CreatingRitualViewModel.swift */,
-				25E9A8C42B924AC400B0D899 /* CoreDataManager.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -413,6 +438,7 @@
 				2525D8C52B7D71220032FB7C /* Title.swift in Sources */,
 				2525D8CA2B7D73D20032FB7C /* QuoteModel.swift in Sources */,
 				25160F152B730462004FA9E5 /* ContentView.swift in Sources */,
+				257CC8A52BA39B6200A44887 /* NotificationSettingsView.swift in Sources */,
 				2525D8C72B7D719C0032FB7C /* Daily Quote.swift in Sources */,
 				25160F4E2B74215A004FA9E5 /* Ritual Task.swift in Sources */,
 				25160F442B730A81004FA9E5 /* HomeView.swift in Sources */,
@@ -422,6 +448,8 @@
 				25E9A8B42B8FE90900B0D899 /* Colors.swift in Sources */,
 				25E9A8C32B92406200B0D899 /* CreatingRitualViewModel.swift in Sources */,
 				25160F462B730C67004FA9E5 /* ExploreView.swift in Sources */,
+				257CC8A32BA39B0800A44887 /* SubscribeView.swift in Sources */,
+				257CC8A12BA38FA300A44887 /* EditProfileView.swift in Sources */,
 				25160F132B730462004FA9E5 /* RitualsApp.swift in Sources */,
 				2525D8C12B7D61A90032FB7C /* FABButton.swift in Sources */,
 				25E9A8AF2B8FCCEC00B0D899 /* AddTaskView.swift in Sources */,
