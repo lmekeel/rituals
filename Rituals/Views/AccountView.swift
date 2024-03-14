@@ -37,17 +37,17 @@ struct AccountView: View {
                 Section{
 
                     Title(title: .constant("Account"))
-                    NavigationLink("Edit Profile", destination: EmptyView())
+                    NavigationLink("Edit Profile", destination: EditProfileView())
                         .padding(.horizontal, 3)
                     NavigationLink("My Data", destination: EmptyView())
                         .padding(.horizontal, 3)
                     
                     Title(title: .constant("Settings"))
-                    NavigationLink("Notifications", destination: EmptyView())
+                    NavigationLink("Notifications", destination: NotificationSettingsView())
                         .padding(.horizontal, 3)
                         
                     Title(title: .constant("Membership"))
-                    NavigationLink("Subscribe", destination: EmptyView())
+                    NavigationLink("Subscribe", destination: SubscribeView())
                         .padding(.horizontal, 3)
                 }
             }
